@@ -18,6 +18,7 @@ body {
 .logo img {
   height: 70px;
   width: 270px;
+  max-width: 100%;
 }
 
 .navbar ul {
@@ -90,3 +91,114 @@ footer {
   font-size: 1rem;
   font-style: italic;
 }
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navbar ul {
+    gap: 30px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    margin: 20px 10px;
+  }
+
+  p {
+    margin: 0 20px 20px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 55px;
+    width: auto;
+  }
+
+  .navbar ul {
+    gap: 20px;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+  }
+
+  .cover img {
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  p {
+    margin: 0 15px 18px;
+    font-size: 1rem;
+  }
+
+  .kakanin {
+    padding: 15px;
+  }
+
+  .kakanin h2 {
+    font-size: 1.3rem;
+  }
+
+  .kakanin p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .navbar ul {
+    gap: 12px;
+  }
+
+  .navbar a {
+    font-size: 1.05rem;
+  }
+
+  .cover img {
+    height: 170px;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+    margin: 15px 5px;
+  }
+
+  p {
+    margin: 0 12px 15px;
+    font-size: 0.95rem;
+  }
+
+  .kakanin {
+    padding: 12px;
+  }
+
+  .kakanin h2 {
+    font-size: 1.15rem;
+  }
+
+  .kakanin p {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    margin: 20px 10px;
+    font-size: 0.9rem;
+  }
+
