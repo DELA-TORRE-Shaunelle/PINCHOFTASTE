@@ -7,36 +7,34 @@ body {
 }
 
 
-.navbar{
- display:flex;
- justify-content:space-between;  
- align-items:center;
- padding:10px 4%;
- background:white;
- border-bottom:1px solid #d4d4d4;
+.n.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
 }
 
-.logo img{
-  width:auto;
-  height:58px
+.logo img {
+  height: 70px;
+  width: 270px;
 }
 
-
-.navbar ul{
- list-style:none;
- padding:0;
- margin:0;
- display:flex;
- gap:3%;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
 }
 
-
-.navbar a{
- text-decoration:none;
- color:black;
- font-family:"Lucida Console", monospace;
- font-weight:600;
- font-size:1.4rem
+.navbar a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+  font-family: "Lucida Console", monospace;
+  font-weight: 600;
 }
 
 
