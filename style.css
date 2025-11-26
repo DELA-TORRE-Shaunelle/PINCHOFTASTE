@@ -6,37 +6,35 @@ body {
  color:black
 }
 
-
-.n.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 40px;
-  background: white;
-  border-bottom: 1px solid #ddd;
+.navbar{
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ padding:10px 4%;
+ background:white;
+ border-bottom:1px solid #d4d4d4;
 }
 
-.logo img {
-  height: 70px;
-  width: 270px;
+.logo img{
+ height:58px;
+ width:auto
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-  margin: 0;
-  padding: 0;
+.navbar ul{
+ list-style:none;
+ padding:0;
+ margin:0;
+ display:flex;
+ gap:50px
 }
 
-.navbar a {
-  text-decoration: none;
-  font-size: 1.7rem;
-  color: black;
-  font-family: "Lucida Console", monospace;
-  font-weight: 600;
+.navbar a{
+ text-decoration:none;
+ color:black;
+ font-family:"Lucida Console", monospace;
+ font-weight:600;
+ font-size:1.4rem
 }
-
 
 .cover img{
  height:210px;
@@ -45,14 +43,12 @@ body {
  display:block
 }
 
-
 h1{
  font-family:'Birthstone Bounce', cursive;
  text-align:center;
  font-size:3.5rem;
  margin:3% 0 1%
 }
-
 
 p{
  margin:0 5% 3%;
@@ -61,13 +57,11 @@ p{
  line-height:1.6
 }
 
-
 .kakanin-list{
  width:90%;
  max-width:850px;
  margin:3% auto
 }
-
 
 .kakanin{
  background:white;
@@ -92,7 +86,6 @@ p{
  text-align:left
 }
 
-
 footer{
  font-size:.95rem;
  text-align:center;
@@ -100,66 +93,9 @@ footer{
  margin:4% 5%
 }
 
-
-
-
-.navbar a{
-  font-size:1.2rem
-}
-
-.cover img{
- height:180px
-}
-
-p{
- margin:0 6% 4%
-}
-
-h1{
- font-size:3rem;
- margin:4% 0 2%
-}
-
-.navbar{
- flex-direction:column;
- padding:8px 3%
-}
-
-.navbar ul{
- gap:5%
-}
-
-.navbar a{
- font-size:1rem
-}
-
-.cover img{
- height:150px
-}
-
-h1{
- margin:5% 0 2%;
- font-size:2.4rem
-}
-
-p{
- font-size:1rem;
- margin:0 8% 4%
-}
-
-.kakanin{
- padding:12px
-}
-
-.kakanin h2{
- font-size:1.15rem
-}
-
-.kakanin p{
- font-size:.95rem
-}
-
-footer{
- margin:6% 8%
-}
-
+ .navbar ul{
+  gap:20px
+ }
+ .navbar a{
+  font-size:1.1rem
+ }
