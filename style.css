@@ -9,7 +9,7 @@ body {
 
 .navbar{
  display:flex;
- justify-content:space-between;
+ justify-content:space-between;  
  align-items:center;
  padding:10px 4%;
  background:white;
@@ -27,8 +27,9 @@ body {
  padding:0;
  margin:0;
  display:flex;
- gap:3%
+ gap:3%;
 }
+
 
 .navbar a{
  text-decoration:none;
@@ -53,7 +54,6 @@ h1{
  font-size:3.5rem;
  margin:3% 0 1%
 }
-
 
 
 p{
@@ -103,65 +103,65 @@ footer{
 }
 
 
- .navbar a{
+
+
+.navbar a{
   font-size:1.2rem
- }
+}
 
- .cover img{
-  height:180px
- }
+.cover img{
+ height:180px
+}
 
- p{
-  margin:0 6% 4%
- }
+p{
+ margin:0 6% 4%
+}
 
- h1{
-  font-size:3rem;
-  margin:4% 0 2%
- }
+h1{
+ font-size:3rem;
+ margin:4% 0 2%
+}
 
+.navbar{
+ flex-direction:column;
+ padding:8px 3%
+}
 
- .navbar{
-  flex-direction:column;
-  padding:8px 3%
- }
+.navbar ul{
+ gap:5%
+}
 
- .navbar ul{
-  gap:5%
- }
+.navbar a{
+ font-size:1rem
+}
 
- .navbar a{
-  font-size:1rem
- }
+.cover img{
+ height:150px
+}
 
- .cover img{
-  height:150px
- }
+h1{
+ margin:5% 0 2%;
+ font-size:2.4rem
+}
 
- h1{
-  margin:5% 0 2%;
-  font-size:2.4rem
- }
+p{
+ font-size:1rem;
+ margin:0 8% 4%
+}
 
- p{
-  font-size:1rem;
-  margin:0 8% 4%
- }
+.kakanin{
+ padding:12px
+}
 
- .kakanin{
-  padding:12px
- }
+.kakanin h2{
+ font-size:1.15rem
+}
 
- .kakanin h2{
-  font-size:1.15rem
- }
+.kakanin p{
+ font-size:.95rem
+}
 
- .kakanin p{
-  font-size:.95rem
- }
-
- footer{
-  margin:6% 8%
- }
+footer{
+ margin:6% 8%
 }
 
