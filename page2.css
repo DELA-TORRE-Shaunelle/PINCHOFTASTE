@@ -61,7 +61,7 @@ h1 {
   text-align:left;
 }
 
-/* REMOVE DROPDOWN ARROW COMPLETELY */
+
 summary::marker {
   display:none;
 }
