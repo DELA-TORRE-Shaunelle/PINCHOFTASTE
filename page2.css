@@ -1,0 +1,116 @@
+body {
+  background:#F5F3F5;
+  margin:0;
+  padding:0;
+  font-family:'Merriweather', serif;
+  color:black;
+  text-align:center;
+}
+
+.navbar {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 4%;
+  background:white;
+  border-bottom:1px solid #d4d4d4;
+}
+
+.logo img {
+  height:58px;
+  width:auto;
+}
+
+.navbar ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  gap:50px;
+}
+
+.navbar a {
+  text-decoration:none;
+  color:black;
+  font-family:"Lucida Console", monospace;
+  font-weight:600;
+  font-size:1.4rem;
+}
+
+h1 {
+  font-family:'Birthstone Bounce', cursive;
+  font-size:3.2rem;
+  margin:40px 0 20px;
+}
+
+.pastry-container {
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+}
+
+.pastry {
+  background:white;
+  border:1px solid rgba(0,0,0,.08);
+  padding:15px;
+  margin:20px;
+  border-radius:12px;
+  width:300px;
+  display:inline-block;
+  vertical-align:top;
+  text-align:left;
+}
+
+/* REMOVE DROPDOWN ARROW COMPLETELY */
+summary::marker {
+  display:none;
+}
+
+summary::-webkit-details-marker {
+  display:none;
+}
+
+summary {
+  list-style:none;
+}
+
+summary img {
+  width:100%;
+  border-radius:12px;
+  height:200px;
+  object-fit:cover;
+  transition:transform .3s;
+}
+
+summary:hover img {
+  transform:scale(1.05);
+}
+
+details {
+  cursor:pointer;
+}
+
+.content {
+  margin-top:10px;
+}
+
+.desc {
+  font-size:13px;
+  margin-bottom:10px;
+}
+
+.section-title {
+  color:#B21E4B;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+ul, ol {
+  margin-left:20px;
+}
+
+footer {
+  margin:50px 0;
+  font-size:1rem;
+  font-style:italic;
+}
