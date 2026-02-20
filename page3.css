@@ -1,0 +1,104 @@
+body {
+  background:#F5F3F5;
+  margin:0;
+  padding:0;
+  font-family:'Merriweather', serif;
+  color:#333;
+  text-align:center;
+}
+
+.navbar {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 4%;
+  background:white;
+  border-bottom:1px solid #d4d4d4;
+}
+
+.logo img {
+  height:58px;
+  width:auto;
+}
+
+.navbar ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  gap:50px;
+}
+
+.navbar a {
+  text-decoration:none;
+  color:black;
+  font-family:"Lucida Console", monospace;
+  font-weight:600;
+  font-size:1.2rem;
+}
+
+h2 {
+  font-family:'Birthstone Bounce', cursive;
+  font-size:3rem;
+  color:#B21E4B;
+  margin:50px 0 20px;
+}
+
+.quote-box {
+  background:white;
+  border:2px solid #B21E4B;
+  border-radius:12px;
+  padding:25px 20px;
+  max-width:600px;
+  width:90%;
+  margin:20px auto;
+  font-size:1.2rem;
+  font-style:italic;
+  color:#602702;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.thankyou {
+  margin-top:30px;
+  font-size:1.1rem;
+  font-weight:bold;
+}
+
+.form-container {
+  width:90%;
+  max-width:800px;
+  margin:40px auto;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.form-container iframe {
+  width:100%;
+  border:none;
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .navbar ul {
+    flex-direction:column;
+    gap:15px;
+  }
+
+  h2 {
+    font-size:2.3rem;
+  }
+}
+
+footer {
+  margin:60px 0;
+  font-size:1rem;
+  font-style:italic;
+  color:#555;
+}
